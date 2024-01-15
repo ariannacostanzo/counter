@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.container {
+    margin: 10rem 0;
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: rgb(4, 4, 48);
+    
+}
+
+p {
+    font-size: 4rem;
+    margin: 3rem 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: scale .1s linear;
+}
+
+button:hover {
+    outline: 1px solid rgb(47, 47, 153);
+}
+
+#decrease:active {
+    scale: .9;
+}
+
+#increase:active {
+    scale: 1.1;
+}

@@ -1,0 +1,1 @@
+Creare un counter che abbia 3 tasti. Un tasto fa decrescere il numero, un altro resetta a 0, ed un altro ancora fa aumentare il numero. Quando il numero è positivo si colora di verde, quando è negativo si colora di rosso
